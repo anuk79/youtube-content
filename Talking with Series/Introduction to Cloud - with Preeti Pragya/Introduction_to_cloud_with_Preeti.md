@@ -2,6 +2,8 @@
 
 In this episode of talking with series, our guest Preeti Pragya takes us through the journey to Cloud, Cloud Computing and AWS along with demo and some really cool tips.
 
+[Check captions](https://github.com/anuk79/youtube-content/blob/main/Talking%20with%20Series/Introduction%20to%20Cloud%20-%20with%20Preeti%20Pragya/captions.vtt)
+
 ## Topics covered
 - Intro
 - Motivation behind blog CloudKatha
