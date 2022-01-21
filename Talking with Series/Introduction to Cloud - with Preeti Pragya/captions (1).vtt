@@ -1,0 +1,2680 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.440 --> 00:00:01.440
+[Anuradha] - Hey everyone.
+
+00:00:01.440 --> 00:00:04.240
+My name is Anuradha Kumari and welcome to my YouTube channel.
+
+00:00:04.240 --> 00:00:08.337
+So today we have our second guest for 'Talking With' Series
+
+00:00:08.337 --> 00:00:15.790
+and we have with us Preeti Pragya. Welcome, Preeti, to the show.
+
+00:00:15.790 --> 00:00:17.160
+[Preeti] - Thank you, Anu.
+
+00:00:17.160 --> 00:00:21.220
+Thank you so much for having me here.
+
+00:00:21.220 --> 00:00:22.240
+[Anuradha] - Thank you.
+
+00:00:22.240 --> 00:00:24.440
+Thank you for being here.
+
+00:00:24.440 --> 00:00:27.700
+I'm so excited to learn cloud from you.
+
+00:00:27.700 --> 00:00:34.460
+And so for the viewers, she's going to take us into the journey of cloud.
+
+00:00:34.460 --> 00:00:40.434
+So, I'm so excited to learn from her.
+
+00:00:44.434 --> 00:00:48.012
+[Anuradha] - Before starting, would you like to give a
+
+00:00:48.012 --> 00:00:49.404
+quick introduction to the audience about yourself?
+
+00:00:49.404 --> 00:00:52.686
+[Preeti] - Hi everyone, I am Preeti Pragya Jha.
+
+00:00:52.686 --> 00:00:56.262
+I am basically into
+backend development.
+
+00:00:56.262 --> 00:01:02.360
+And, apart from the backend development, I do architecture as well, in cloud.
+
+00:01:02.360 --> 00:01:07.727
+I am an AWS certified solutions architect, and I have been working
+
+00:01:07.727 --> 00:01:12.778
+as an architect as well since last two and a half years.
+
+00:01:12.778 --> 00:01:20.387
+So I really like architecting and the cloud. So overall I'm like, you know,
+
+00:01:20.387 --> 00:01:25.329
+developer, and cloud architect. So, that's all about me.
+
+00:01:25.329 --> 00:01:31.285
+[Anuradha] - So, that is actually a humble way of introducing yourself because,
+
+00:01:31.285 --> 00:01:35.880
+she also runs a blog called cloudkatha and, it is an amazing blog.
+
+00:01:35.880 --> 00:01:41.457
+So whatever we talk today, I will be dropping all the links in the description.
+
+00:01:41.457 --> 00:01:44.892
+So you will have access to everything. But,
+
+00:01:44.892 --> 00:01:48.697
+CloudKatha is a blog where she talks extensively
+
+00:01:48.697 --> 00:01:52.632
+about cloud and different problems with AWS and their solution.
+
+00:01:52.632 --> 00:01:56.260
+So Preeti, I would really like you to like, tell me,
+
+00:01:56.260 --> 00:01:59.131
+what was your motivation behind this blog?
+
+00:01:59.131 --> 00:02:05.051
+Because this blog is wonderful and I'm sure it's helping a lots of people.
+
+00:02:05.051 --> 00:02:12.370
+[Preeti] - Well, that's true. Actually, the motivation is obviously,
+
+00:02:12.370 --> 00:02:17.130
+as we always say, when there is a problem, then only we go to find a solution,
+
+00:02:17.130 --> 00:02:18.130
+right?
+
+00:02:18.130 --> 00:02:24.460
+So, in my initial days of cloud computing, when I started for one of my clients and I
+
+00:02:24.460 --> 00:02:25.660
+was a complete beginner.
+
+00:02:25.660 --> 00:02:32.200
+Usually people start with the storage service or doing simple things.
+
+00:02:32.200 --> 00:02:37.450
+But when I started, I simply jumped into serverless cloud computing and then
+
+00:02:37.450 --> 00:02:42.760
+doing the cloud native development and deployment using serverless technology
+
+00:02:42.760 --> 00:02:44.300
+For example, Lambda, API gateway.
+
+00:02:44.300 --> 00:02:52.150
+And I had zero knowledge about them back then.
+
+00:02:52.150 --> 00:02:55.590
+So usually while doing the development, I would face a problem.
+
+00:02:55.590 --> 00:03:00.160
+And then I would go into Google and search for that problem and the solution
+
+00:03:00.160 --> 00:03:05.880
+for hours, only to be sometimes disappointed, not to find any solution.
+
+00:03:05.880 --> 00:03:11.280
+And that's when I decided that if I am facing this problem, there might be
+
+00:03:11.280 --> 00:03:15.670
+many people out there who might be facing the same problem.
+
+00:03:15.670 --> 00:03:17.440
+But same as me, they
+
+00:03:17.440 --> 00:03:21.270
+also were not getting the solution anywhere.
+
+00:03:21.270 --> 00:03:24.190
+That's when I decided to document that each time I face a
+
+00:03:24.190 --> 00:03:29.380
+peculiar type of problem, I'm gonna solve it.
+
+00:03:29.380 --> 00:03:31.480
+And then I'm going to document it so that
+
+00:03:31.480 --> 00:03:35.171
+nobody else has to spend so much time in
+
+00:03:35.171 --> 00:03:36.990
+figuring out the problem.
+
+00:03:36.990 --> 00:03:38.610
+And, that's how it started.
+
+00:03:38.610 --> 00:03:42.870
+Thankfully, once it started, 
+it's going really strong
+
+00:03:42.870 --> 00:03:46.170
+and people are getting help from it.
+
+00:03:46.170 --> 00:03:49.750
+They are finding their solution, 
+what they are looking for here.
+
+00:03:49.750 --> 00:03:51.610
+So I hope it goes good.
+
+00:03:51.610 --> 00:03:56.000
+And I'm able to help someone in need, 
+you know.
+
+00:03:56.000 --> 00:03:58.270
+[Anuradha] - Yes, of course, 
+you're helping a lots of people
+
+00:03:58.270 --> 00:04:01.790
+because I have seen some of your results in top Google searches.
+
+00:04:01.790 --> 00:04:02.790
+So definitely.
+
+00:04:02.790 --> 00:04:05.180
+And there is so much of quality content. 
+
+00:04:05.180 --> 00:04:10.880
+I'm really proud of you, like how you are putting out content there.
+
+00:04:10.880 --> 00:04:13.810
+And it's definitely helping a lots of people.
+
+00:04:13.810 --> 00:04:15.350
+So yeah.
+
+00:04:15.350 --> 00:04:16.350
+Thank you from the whole community
+
+00:04:16.350 --> 00:04:18.919
+to you for creating such a nice blog.
+
+00:04:18.919 --> 00:04:24.680
+And also you gave a very 
+nice overview of how you
+
+00:04:24.680 --> 00:04:33.530
+jump into this cloud world and 
+yeah, that, that's a nice one.
+
+00:04:33.530 --> 00:04:34.530
+Like, you head dived into it.
+
+00:04:34.530 --> 00:04:41.120
+[Preeti] - Yeah, it's like hopping into the middle of the sea, out of blue (nowhere).
+
+00:04:41.120 --> 00:04:44.810
+That's what I would like to highlight one point here.
+
+00:04:44.810 --> 00:04:48.139
+Usually what happens whenever we start something?
+
+00:04:48.139 --> 00:04:53.460
+We need the confidence
+to be able to finish the thing.
+
+00:04:53.460 --> 00:04:57.700
+And at that time, I'm really proud to have a client like
+
+00:04:57.700 --> 00:05:01.630
+my client, who had immense 
+faith it in me.
+
+00:05:01.630 --> 00:05:05.940
+I directly told the client that 
+Boss, please know
+
+00:05:05.940 --> 00:05:08.240
+that I have never, ever worked in AWS.
+
+00:05:08.240 --> 00:05:09.780
+And this is the
+
+00:05:09.780 --> 00:05:12.500
+this is the development from scratch.
+
+00:05:12.500 --> 00:05:15.970
+And I can tell you that I can 
+learn and do things.
+
+00:05:15.970 --> 00:05:18.960
+However, please be noted that
+
+00:05:18.960 --> 00:05:21.430
+I don't know AWS at all.
+
+00:05:21.430 --> 00:05:26.110
+All I know is AWS is a cloud and
+ it's Amazon Web Services.
+
+00:05:26.110 --> 00:05:27.850
+That's all I knew.
+
+00:05:27.850 --> 00:05:33.660
+And my client had a faith that yes, I
+can do it based on the way
+
+00:05:33.660 --> 00:05:39.250
+he interviewed me and, each and every day
+into my journey when I used to,
+
+00:05:39.250 --> 00:05:44.030
+know things, because obviously when I started out of the blue, suddenly in the
+
+00:05:44.030 --> 00:05:50.220
+middle of the sea, I was into complex scenario and then going from
+
+00:05:50.220 --> 00:05:54.560
+complex scenario into finding the
+fundamental of the thing that, how things
+
+00:05:54.560 --> 00:05:55.560
+work.
+
+00:05:55.560 --> 00:05:58.390
+And then again, coming back and 
+putting things together.
+
+00:05:58.390 --> 00:05:59.520
+So.
+
+00:05:59.520 --> 00:06:05.510
+I would like to say that whenever someone is there, trusting you fully, that's a big,
+
+00:06:05.510 --> 00:06:06.530
+big motivation.
+
+00:06:06.530 --> 00:06:12.640
+And also for you to prove a point that, yes, I can't disappoint the person who is in front
+
+00:06:12.640 --> 00:06:15.770
+of me and who is having so much
+ faith into me.
+
+00:06:15.770 --> 00:06:21.140
+So that was a great gesture by my client.
+
+00:06:21.140 --> 00:06:25.419
+[Anuradha] - That is so true, actually, because, sometimes we don't believe in us, but
+
+00:06:25.419 --> 00:06:30.340
+if someone else believes in us, we feel like we have to live up to that belief and then
+
+00:06:30.340 --> 00:06:31.660
+we end up pushing ourselves (for better).
+
+00:06:31.660 --> 00:06:35.900
+So yeah, it's really a blessing to
+have a good client. &lt;&lt;laughs&gt;&gt;
+
+00:06:35.900 --> 00:06:41.770
+So for me, as of today, my knowledge about cloud is the same.
+
+00:06:41.770 --> 00:06:45.630
+Yeah, there is cloud and AWS means Amazon web services.
+
+00:06:45.630 --> 00:06:50.720
+So this is my understanding, 
+and it ends here.
+
+00:06:50.720 --> 00:06:54.140
+So I'm really excited to 
+learn from you and,
+
+00:06:54.140 --> 00:07:00.110
+at least to be able to explain a little
+more about cloud after you teach us.
+
+00:07:00.110 --> 00:07:01.350
+So, yeah.
+
+00:07:01.350 --> 00:07:07.100
+Would you like to start with the session?
+
+00:07:07.100 --> 00:07:12.340
+[Preeti] - Of course, I would like to give
+
+00:07:12.340 --> 00:07:14.610
+a little bit of overview into
+the cloud.
+
+00:07:14.610 --> 00:07:18.169
+Cloud, as you know, nowadays is a buzzword everywhere.
+
+00:07:18.169 --> 00:07:23.729
+You will listen cloud cloud, cloud be it, small or be very big organization.
+
+00:07:23.729 --> 00:07:24.729
+Everywhere there
+
+00:07:24.729 --> 00:07:25.729
+is
+
+00:07:25.729 --> 00:07:26.729
+a cloud.
+
+00:07:26.729 --> 00:07:27.729
+And
+
+00:07:27.729 --> 00:07:28.729
+so
+that's why I would like to give you.
+
+00:07:28.729 --> 00:07:32.240
+A little bit of overview into cloud.
+
+00:07:32.240 --> 00:07:35.370
+What is cloud computing, 
+why we use it?
+
+00:07:35.370 --> 00:07:36.370
+What's the benefit,
+
+00:07:36.370 --> 00:07:38.979
+ and which kind of cloud that
+
+00:07:38.979 --> 00:07:44.710
+I use in my day-to-day work.
+
+00:07:44.710 --> 00:07:48.168
+And then giving a very simple hands-on demo, for example,
+
+00:07:48.168 --> 00:07:53.780
+how to deploy a simple website into the AWS cloud.
+
+00:07:53.780 --> 00:07:57.490
+So that, that would be the journey today.
+
+00:07:57.490 --> 00:07:58.490
+[Anuradha] - Okay.
+
+00:07:58.490 --> 00:07:59.490
+That sounds really awesome.
+
+00:07:59.490 --> 00:08:06.860
+So I have shared your screen, 
+so yeah, take it away.
+
+00:08:06.860 --> 00:08:08.830
+[Preeti] - Thank you, Anu.
+
+00:08:08.830 --> 00:08:16.670
+So I guess by now you already know me a bit and, this is the agenda that
+
+00:08:16.670 --> 00:08:18.150
+we'll be talking about today.
+
+00:08:18.150 --> 00:08:22.310
+We'll see what cloud computing is,
+ why we use it.
+
+00:08:22.310 --> 00:08:23.610
+What are its types?
+
+00:08:23.610 --> 00:08:27.470
+and real life cloud computing 
+examples.
+
+00:08:27.470 --> 00:08:35.930
+And then since I have been using
+AWS, since long time and I feel it's a
+
+00:08:35.930 --> 00:08:41.419
+really good. I would like to give you
+a very simple demo of how to get started with
+
+00:08:41.419 --> 00:08:48.360
+it because hosting a simple website in S3 is one of the best way to get started
+
+00:08:48.360 --> 00:08:53.190
+with learning AWS, you know.
+
+00:08:53.190 --> 00:08:54.350
+Okay.
+
+00:08:54.350 --> 00:08:56.620
+So let's get started.
+
+00:08:56.620 --> 00:08:59.734
+What is cloud?
+Tell me a thing.
+
+00:08:59.734 --> 00:09:07.950
+When I heard the cloud for
+the very first time, first thing that came
+
+00:09:07.950 --> 00:09:13.089
+to my mind was the cloud 
+that we see in the sky.
+
+00:09:13.089 --> 00:09:15.640
+Was that the case with you as well?
+
+00:09:15.640 --> 00:09:20.380
+Don't forget to leave a comment to let me
+know that I'm not alone in this world who
+
+00:09:20.380 --> 00:09:29.540
+looks at the sky every single time when I listen to the word cloud.
+
+00:09:29.540 --> 00:09:36.300
+So if we consider about the cloud, 
+think what does it do?
+
+00:09:36.300 --> 00:09:41.029
+It provides a service of rain
+ to the residents of Earth.
+
+00:09:41.029 --> 00:09:42.410
+Doesn't it?
+
+00:09:42.410 --> 00:09:47.430
+We on the Earth are dependent 
+on the cloud for water.
+
+00:09:47.430 --> 00:09:53.100
+One of the most important resource and then cloud serves us.
+
+00:09:53.100 --> 00:10:01.899
+If we compare it with cloud computing, doesn't it do the same kind of thing?
+
+00:10:01.899 --> 00:10:07.550
+Somewhere up there, not in the sky, but somewhere in the remote place,
+
+00:10:07.550 --> 00:10:10.540
+There are servers, data centers, and
+
+00:10:10.540 --> 00:10:15.339
+things where actual servers reside and they give us service.
+
+00:10:15.339 --> 00:10:22.440
+For example, I need huge storage to store all my photographs because I'm a photographer.
+
+00:10:22.440 --> 00:10:28.390
+Then cloud can provide me that storage and I can store all my photographs
+
+00:10:28.390 --> 00:10:30.820
+over the internet, into the cloud.
+
+00:10:30.820 --> 00:10:37.670
+So basically, if you try to compare, it very well compares with the real cloud that lies
+
+00:10:37.670 --> 00:10:40.950
+in the sky, somewhere up in the sky.
+
+00:10:40.950 --> 00:10:48.440
+So in that way only, in cloud computing world as well, the cloud or the data centers or
+
+00:10:48.440 --> 00:11:01.760
+the servers, they stay somewhere remotely, and we access all those resources using internet.
+
+00:11:01.760 --> 00:11:03.860
+Well, that was about cloud.
+
+00:11:03.860 --> 00:11:08.810
+So let's get to the introducing cloud computing formally.
+
+00:11:08.810 --> 00:11:09.830
+Okay.
+
+00:11:09.830 --> 00:11:17.140
+So if we try to define cloud computing formally, it's nothing but on demand
+
+00:11:17.140 --> 00:11:19.090
+availability of computing resources.
+
+00:11:19.090 --> 00:11:24.529
+For example, if you want to do anything, if
+you want to host a website, if you want to
+
+00:11:24.529 --> 00:11:31.250
+deploy API, if you want to do any kind of machine learning. For anything, you will need
+
+00:11:31.250 --> 00:11:32.410
+a compute resource.
+
+00:11:32.410 --> 00:11:43.420
+Be it storage, be it, compute power, be it a CDN, or be it a database, be a SASS platform.
+
+00:11:43.420 --> 00:11:52.519
+Be it infrastructure - for all kinds of resources you can use cloud because cloud computing
+
+00:11:52.519 --> 00:11:58.620
+will make all those resources available to you, on demand, when you need it.
+
+00:11:58.620 --> 00:12:04.510
+Think little bit before what
+used to happen.
+
+00:12:04.510 --> 00:12:10.440
+I still remember, when I started
+my career a few years ago, in the beginning,
+
+00:12:10.440 --> 00:12:16.940
+the very first project that I did - once we used to deploy, once you have developed
+
+00:12:16.940 --> 00:12:21.519
+application for deploying, in the real machine, we had to deploy that.
+
+00:12:21.519 --> 00:12:26.801
+Imagine we will just go into that computer or the server, we'll login into that IP and
+
+00:12:26.801 --> 00:12:29.600
+we'll deploy it in our system.
+
+00:12:29.600 --> 00:12:33.450
+So, you know, the world had changed 
+a lot in this time.
+
+00:12:33.450 --> 00:12:41.240
+So in those time, if you have to deploy a small website, you need to accommodate everything.
+
+00:12:41.240 --> 00:12:44.150
+You need to take care of all those servers.
+
+00:12:44.150 --> 00:12:47.370
+You need to have cooling system.
+
+00:12:47.370 --> 00:12:49.310
+You need to have power sorted.
+
+00:12:49.310 --> 00:12:54.740
+You need to have people who will be managing those servers, 
+
+00:12:54.740 --> 00:12:55.740
+who will be keeping all those servers up.
+
+00:12:55.740 --> 00:12:58.500
+and keeping uptime as high 
+as possible.
+
+00:12:58.500 --> 00:13:05.120
+Will be taking care of networking and all those things, you know. So basically cloud
+
+00:13:05.120 --> 00:13:10.150
+computing frees from all those hard to maintain tasks.
+
+00:13:10.150 --> 00:13:17.240
+And I love it. Simply because I really like if you, on the few clicks, you are able to
+
+00:13:17.240 --> 00:13:22.920
+deploy a website and you can go live to the global worldwide user in few minutes.
+
+00:13:22.920 --> 00:13:26.440
+And that's the power of 
+cloud computing.
+
+00:13:26.440 --> 00:13:31.570
+For example, if you are a small business, you can start with one server.
+
+00:13:31.570 --> 00:13:35.940
+And if you are a big business, you can start with thousands of servers.
+
+00:13:35.940 --> 00:13:41.639
+So you don't have to worry that I have to
+build the big empire of infrastructure in
+
+00:13:41.639 --> 00:13:45.389
+order for my business to succeed.
+
+00:13:45.389 --> 00:13:48.740
+In fact, you can go go side by side, parallely.
+
+00:13:48.740 --> 00:13:53.839
+You can grow. Cloud computing actually helps any kind of business who are
+
+00:13:53.839 --> 00:13:55.000
+just starting.
+
+00:13:55.000 --> 00:14:00.170
+It's great in that because you can start and
+you do not pay in the beginning.
+
+00:14:00.170 --> 00:14:05.839
+If you are not using the service and as your
+user base is growing, your app is actually
+
+00:14:05.839 --> 00:14:08.829
+becoming successful, then you start paying it.
+
+00:14:08.829 --> 00:14:09.940
+So it's a win-win situation.
+
+00:14:09.940 --> 00:14:10.940
+Isn't it?
+
+00:14:10.940 --> 00:14:13.870
+Talking about
+
+00:14:13.870 --> 00:14:17.430
+the on demand scaling.
+
+00:14:17.430 --> 00:14:25.950
+So, if I describe, scaling is nothing
+but ability to add capacity and
+
+00:14:25.950 --> 00:14:32.410
+remove capacity. In terms of cloud computing, we call it scaling up and scaling down.
+
+00:14:32.410 --> 00:14:35.990
+So, for example, currently, or suddenly, 
+
+00:14:35.990 --> 00:14:36.990
+your website (flipkart for example)
+
+00:14:36.990 --> 00:14:40.089
+have a big billion day and you
+have to sell thousands of products, millions
+
+00:14:40.089 --> 00:14:45.290
+of customers browsing your website and buying from your company, what
+
+00:14:45.290 --> 00:14:46.290
+would
+
+00:14:46.290 --> 00:14:47.290
+you do?
+
+00:14:47.290 --> 00:14:50.980
+Obviously you need to scale as soon as possible, and that must be done automatically.
+
+00:14:50.980 --> 00:14:57.430
+For example, as soon as more users are browsing your website, in the backend,
+
+00:14:57.430 --> 00:14:58.720
+more servers will get added.
+
+00:14:58.720 --> 00:15:05.329
+And if there are less users on your website, in the backend, server will get removed as
+
+00:15:05.329 --> 00:15:09.740
+well, so that you don't pay for any idol server, right?
+
+00:15:09.740 --> 00:15:15.160
+Because that's what helps us, in the cloud, to lower overall operational cost.
+
+00:15:15.160 --> 00:15:25.040
+And that's why I say it's suitable for
+all kinds of, and all sizes of businesses.
+
+00:15:25.040 --> 00:15:35.050
+We are here to give you a real life example of cloud computing.
+
+00:15:35.050 --> 00:15:41.800
+Let me tell you one thing that even if you
+are hearing the word cloud computing for the
+
+00:15:41.800 --> 00:15:47.390
+first time, but I guarantee that you must
+have used it quite a lot of times in your
+
+00:15:47.390 --> 00:15:48.390
+day.
+
+00:15:48.390 --> 00:15:50.890
+And we use it in our day-to-day life as well.
+
+00:15:50.890 --> 00:15:56.970
+For example, who doesn't love binge
+watching a series on Netflix, and I guess
+
+00:15:56.970 --> 00:16:06.640
+I do. So, as you can see in the screen, there are a lot of well-known applications.
+
+00:16:06.640 --> 00:16:11.820
+For example, Facebook, Netflix, YouTube, Airbnb, Zoom, and slack, everything.
+
+00:16:11.820 --> 00:16:14.390
+And they are all hosted in the cloud.
+
+00:16:14.390 --> 00:16:20.620
+Especially, if I talk about Airbnb and Zoom, they have started from very small and then
+
+00:16:20.620 --> 00:16:25.430
+they have reached their peak being in the cloud and they were able to that
+
+00:16:25.430 --> 00:16:31.339
+because they didn't have to build the entire empire of infrastructure.
+
+00:16:31.339 --> 00:16:36.850
+For example, nowadays Airbnb is such a big thing, but there was a time that it just started.
+
+00:16:36.850 --> 00:16:42.740
+So imagine if Airbnb will go in buying all
+the servers beforehand, before going to that,
+
+00:16:42.740 --> 00:16:46.620
+business and getting the users,
+what would happen?
+
+00:16:46.620 --> 00:16:51.709
+It wouldn't have been possible to succeed as much as it did.
+
+00:16:51.709 --> 00:16:57.100
+So cloud computing was a catalyst in the success.
+
+00:16:57.100 --> 00:17:03.810
+Well, what are types of cloud computing ?
+
+00:17:03.810 --> 00:17:11.519
+If we talk about the types of cloud
+computing, usually we define it,
+
+00:17:11.519 --> 00:17:17.359
+in the three parts, public cloud, private cloud, and hybrid cloud.
+
+00:17:17.359 --> 00:17:23.929
+Now you might tell me that nowadays there is a fourth one coming that we call community
+
+00:17:23.929 --> 00:17:30.779
+cloud and as the word already is saying it's kind of for the
+
+00:17:30.779 --> 00:17:31.779
+community.
+
+00:17:31.779 --> 00:17:38.190
+So let's know what are all these different types. I'll get started with private.
+
+00:17:38.190 --> 00:17:44.210
+Private cloud is nothing but as we say on-premises cloud, for one single organization.
+
+00:17:44.210 --> 00:17:51.669
+For example, if my organization
+is not that much comfortable in putting the
+
+00:17:51.669 --> 00:17:58.350
+client's data or due to some security reasons or for any other reasons, I don't trust anyone
+
+00:17:58.350 --> 00:17:59.769
+storing my data.
+
+00:17:59.769 --> 00:18:03.090
+I don't trust my data going through their
+network.
+
+00:18:03.090 --> 00:18:09.409
+So in that case, I can get my own
+cloud in our own infrastructure.
+
+00:18:09.409 --> 00:18:11.279
+I can buy my own server.
+
+00:18:11.279 --> 00:18:15.360
+I can employ all those pollings and everything to put the cloud in the.
+
+00:18:15.360 --> 00:18:21.019
+they are in our own premises and then we can access the cloud for ourselfs only
+
+00:18:21.019 --> 00:18:22.799
+so that we are more secure.
+
+00:18:22.799 --> 00:18:24.460
+We know what we are doing.
+
+00:18:24.460 --> 00:18:32.629
+We are compliant to our needs and all those things. Then comes public cloud.
+
+00:18:32.629 --> 00:18:36.029
+Public cloud, as we say, it's 
+for public usage.
+
+00:18:36.029 --> 00:18:42.429
+And it's used by, as a shared model. To give an example, I would like to say, for
+
+00:18:42.429 --> 00:18:50.950
+example, if we are using mobile phone - we use SIM card in our mobile for communicating,
+
+00:18:50.950 --> 00:18:51.950
+right.
+
+00:18:51.950 --> 00:18:53.320
+Something cards are from Airtel (a network provider).
+
+00:18:53.320 --> 00:18:54.809
+Some sim cards are from BSNL.
+
+00:18:54.809 --> 00:18:59.299
+Some are from other company, or you might be using from some other company.
+
+00:18:59.299 --> 00:19:04.660
+So it's like they are service provider and they provide us a service of
+
+00:19:04.660 --> 00:19:05.879
+communicating with other people.
+
+00:19:05.879 --> 00:19:09.429
+We don't know what goes in the background.
+
+00:19:09.429 --> 00:19:14.650
+What's the system over there, how,
+to hops and router communicate with each other,
+
+00:19:14.650 --> 00:19:21.860
+for example, to make us talk to each other. We don't know, but we are using its service.
+
+00:19:21.860 --> 00:19:25.250
+All those things are abstracted from us.
+
+00:19:25.250 --> 00:19:33.850
+And that's how it happens with the public
+cloud, as well as. Someone who manages
+
+00:19:33.850 --> 00:19:37.249
+it, is called cloud provider.
+
+00:19:37.249 --> 00:19:41.789
+And nowadays there are a lot of cloud providers in the market.
+
+00:19:41.789 --> 00:19:49.590
+Few of which I'm sure you already have heard of, for example, AWS, Azure, then Google
+
+00:19:49.590 --> 00:19:54.389
+cloud or Alibaba cloud in China or 
+digital ocean.
+
+00:19:54.389 --> 00:20:02.460
+There are quite a few already big, big players in the cloud and they provide us
+
+00:20:02.460 --> 00:20:06.309
+all the available cloud services and we can use it over the internet.
+
+00:20:06.309 --> 00:20:12.659
+So today we are going to discuss
+mainly about the public cloud provider, AWS.
+
+00:20:12.659 --> 00:20:17.690
+In the demo that we give on the little bit about how to get started with it.
+
+00:20:17.690 --> 00:20:19.840
+Why should we use it?
+
+00:20:19.840 --> 00:20:27.099
+Coming to the third type, hybrid
+hybrid, as you must have guessed by now is
+
+00:20:27.099 --> 00:20:30.200
+the mix of these two - private plus public.
+
+00:20:30.200 --> 00:20:35.940
+Sometimes, some of our clients prefer that they would like to get started with their
+
+00:20:35.940 --> 00:20:38.609
+own premises infrastructure.
+
+00:20:38.609 --> 00:20:44.534
+And, if at all required, for example, if they have huge storage need,
+
+00:20:44.534 --> 00:20:47.539
+they will get started with on premises.
+
+00:20:47.539 --> 00:20:53.559
+But as and when needed, they will transfer all those data that are not frequently
+
+00:20:53.559 --> 00:20:54.999
+accessed into the cloud.
+
+00:20:54.999 --> 00:20:56.479
+So it's called hybrid.
+
+00:20:56.479 --> 00:21:00.950
+You store something in your on-premises and something in the cloud.
+
+00:21:00.950 --> 00:21:06.230
+You access something from the on premises, you access something from the cloud
+
+00:21:06.230 --> 00:21:09.330
+and together, they are called as Hybrid Cloud.
+
+00:21:09.330 --> 00:21:13.470
+So I hope these types of cloud is clear to you.
+
+00:21:13.470 --> 00:21:20.399
+And, apart from three, as I said, community cloud. Community cloud is similar
+
+00:21:20.399 --> 00:21:26.869
+to public, but it's not sharable for the general public, but it's there for
+
+00:21:26.869 --> 00:21:29.889
+a special community of people.
+
+00:21:29.889 --> 00:21:36.049
+If I say, for military people or for some other people, so it's specifically made for
+
+00:21:36.049 --> 00:21:39.299
+one type of community.
+
+00:21:39.299 --> 00:21:40.649
+Okay.
+
+00:21:40.649 --> 00:21:51.519
+So we are here in one of the cloud service provider, AWS (Amazon web services).
+
+00:21:51.519 --> 00:21:57.369
+You might already be knowing Amazon web services, as for quite a few years,
+
+00:21:57.369 --> 00:22:00.729
+It has been the leader in cloud computing market.
+
+00:22:00.729 --> 00:22:02.019
+And why not.
+
+00:22:02.019 --> 00:22:08.359
+They have vast range of services
+and they can vater your all kinds of need.
+
+00:22:08.359 --> 00:22:13.429
+You can deploy any kind of application into the AWS cloud.
+
+00:22:13.429 --> 00:22:18.889
+You can do machine learning, artificial intelligence, and they have some satellite related services
+
+00:22:18.889 --> 00:22:21.229
+as well over there.
+
+00:22:21.229 --> 00:22:27.229
+So yeah, their range of offering is really, really huge and it can cater all kinds
+
+00:22:27.229 --> 00:22:30.119
+of demands that you have.
+
+00:22:30.119 --> 00:22:36.609
+So if we talk about services,
+today, I'm talking about application deployment.
+
+00:22:36.609 --> 00:22:42.919
+If we have a kind of application how we are going to deploy it into the cloud. Here, as
+
+00:22:42.919 --> 00:22:48.750
+I have divided the application
+into two parts - frontend application, 
+
+00:22:48.750 --> 00:22:54.649
+backend application. If I have to deploy a front end application, it's clear cut.
+
+00:22:54.649 --> 00:22:55.659
+shown, 
+
+00:22:55.659 --> 00:22:56.659
+Like
+
+00:22:56.659 --> 00:22:57.659
+we
+
+00:22:57.659 --> 00:22:58.659
+will go to this.
+
+00:22:59.659 --> 00:23:00.659
+We will be using S3.
+
+00:23:01.659 --> 00:23:02.659
+ 
+
+00:23:02.659 --> 00:23:03.659
+ if I say in simple words, you can
+
+00:23:03.659 --> 00:23:06.169
+get started with the website, just using this
+
+00:23:06.169 --> 00:23:11.440
+service, S3 (Simple Storage Service).
+
+00:23:11.440 --> 00:23:18.649
+However, if your user base is worldwide, then it makes sense to use a content
+
+00:23:18.649 --> 00:23:20.649
+delivery network or CDN.
+
+00:23:20.649 --> 00:23:24.899
+And that's what cloud front is in the AWS.
+
+00:23:24.899 --> 00:23:33.429
+So if your website is going to be for global users, S3 in combination
+
+00:23:33.429 --> 00:23:39.870
+with CloudFront is going to be your choice for a front end deployment.
+
+00:23:39.870 --> 00:23:45.267
+And if you are into backend and you want to deploy a backend solution, 
+
+00:23:45.267 --> 00:23:48.729
+this is the way to go.
+
+00:23:48.729 --> 00:23:55.909
+I have meant three ways to go here. Nowadays, as people prefer serverless
+
+00:23:55.909 --> 00:24:01.179
+way mostly, and even I, in my latest
+project have been working on serverless only
+
+00:24:01.179 --> 00:24:06.929
+because serverless frees you up from even the smallest amount of maintenance
+
+00:24:06.929 --> 00:24:08.879
+tasks is not up to you.
+
+00:24:08.879 --> 00:24:14.279
+You, as a developer are only responsible for writing code.
+
+00:24:14.279 --> 00:24:21.249
+And that all. Lambda, as we say, is a service, which helps you write code and run it.
+
+00:24:21.249 --> 00:24:22.249
+That's it.
+
+00:24:22.249 --> 00:24:27.567
+And in combination with API gateway,
+ this provides you 
+
+00:24:27.567 --> 00:24:31.029
+a full backend application
+ that you want to deploy.
+
+00:24:31.029 --> 00:24:36.869
+And for database, we have multiple options on AWS, but it really depends on your requirement.
+
+00:24:36.869 --> 00:24:41.200
+For example, you might have a requirement for structured data, 
+
+00:24:41.200 --> 00:24:44.229
+and you want to go for SQL.
+
+00:24:44.229 --> 00:24:49.369
+Or if you have some unstructured data and you want to go noSQL way. You have some other
+
+00:24:49.369 --> 00:24:54.830
+options, for example, dynamoDB, you can use as a noSQL database. you want to use guests,
+
+00:24:54.830 --> 00:24:57.239
+you can go ahead with elastic case.
+
+00:24:57.239 --> 00:25:01.289
+So it really depends on your requirement, which kind of need you have.
+
+00:25:01.289 --> 00:25:08.799
+So what you need is, is something that will be in the front end
+
+00:25:08.799 --> 00:25:13.700
+and that front end can be API gateway or application load balancer.
+
+00:25:13.700 --> 00:25:21.489
+It is going to take requests from your user and forward it to your backend for further processing.
+
+00:25:21.489 --> 00:25:25.349
+So in the front, usually in the AWS, you will
+see either API gateway able to accept your
+
+00:25:25.349 --> 00:25:32.809
+request, or you will be using application load balancer. There are times when people use
+
+00:25:32.809 --> 00:25:34.179
+network load balancer as well.
+
+00:25:34.179 --> 00:25:37.867
+For example, if you want to process millions of requests per second, 
+
+00:25:37.867 --> 00:25:41.429
+You might go with the network load balancer as well.
+
+00:25:41.429 --> 00:25:46.239
+But usually I have seen, in case of application, that people go with either
+
+00:25:46.239 --> 00:25:53.100
+API gateway or application load balancer. Then we come to compute. 
+
+00:25:53.100 --> 00:25:56.840
+In the compute, we have three options here.
+
+00:25:56.840 --> 00:26:01.389
+One is Lambda, which as I told, is the serverless option.
+
+00:26:01.389 --> 00:26:08.034
+Another one is EC2 (Elastic Compute Cloud). Who doesn't know EC2 now, 
+
+00:26:08.034 --> 00:26:10.129
+EC2 is the backbone of AWS.
+
+00:26:10.129 --> 00:26:18.899
+It means virtual server in the cloud.
+Elastic compute cloud is the full form
+
+00:26:18.899 --> 00:26:25.970
+of EC2. As the name says, EC2 means, it provides you compute capacity in the cloud.
+
+00:26:25.970 --> 00:26:27.690
+Which kind of compute capacity?
+
+00:26:27.690 --> 00:26:30.179
+- which is elastic.
+
+00:26:30.179 --> 00:26:35.070
+That means you can get started with one EC2 and if required
+
+00:26:35.070 --> 00:26:39.400
+You can go to thousands of EC2, and that too, within minutes.
+
+00:26:39.400 --> 00:26:42.590
+That's the power (of AWS EC2) .
+
+00:26:42.590 --> 00:26:47.149
+Another kind of backend that we see is ECS.
+
+00:26:47.149 --> 00:26:56.034
+ECS is Elastic Container Services. 
+Many applications require 
+
+00:26:56.034 --> 00:26:58.720
+Docker to be deployed on the on-premises or cloud.
+
+00:26:58.720 --> 00:27:05.334
+So if you have the requirement to
+deploy a Docker environment, ECS is
+
+00:27:05.334 --> 00:27:11.600
+the way to go. You can deploy all your ECS and all these backend together
+
+00:27:11.600 --> 00:27:15.059
+can use whatever database you have available.
+
+00:27:15.059 --> 00:27:18.000
+Maybe dynamoDB, maybe RDS.
+
+00:27:18.000 --> 00:27:22.249
+And RDS is the relational database
+services, it mainly focuses on all
+
+00:27:22.249 --> 00:27:23.249
+of the relational databases.
+
+00:27:23.249 --> 00:27:29.830
+For example, mySQL, Aurora DB, Oracle, SQL server, etc.
+
+00:27:29.830 --> 00:27:37.219
+And AWS provides you all the options to create all those databases here and use it.
+
+00:27:37.219 --> 00:27:45.489
+So take away from this slide is - if you have a front-end application, think
+
+00:27:45.489 --> 00:27:52.200
+this way. If you have a backend application, think this way.
+
+00:27:52.200 --> 00:27:55.229
+then you have the option to select here.
+
+00:27:55.229 --> 00:27:57.830
+Think on the front, what would be
+
+00:27:57.830 --> 00:27:59.359
+the front which will be taking requests.
+
+00:27:59.359 --> 00:28:03.919
+What will be your servers and what will be your Database?
+
+00:28:03.919 --> 00:28:09.340
+And you are all set to go.
+
+00:28:09.340 --> 00:28:13.399
+Okay.
+
+00:28:13.399 --> 00:28:21.710
+So today I'll be showing you how to deploy a very, very simple website in AWS.
+
+00:28:21.710 --> 00:28:28.134
+When it comes to deploying a simple website, AWS S3 (Simple Storage Service)  is the way to go.
+
+00:28:28.134 --> 00:28:31.330
+As I told in the previous slide.
+
+00:28:31.330 --> 00:28:35.830
+So these are the steps that you can use to deploy it.
+
+00:28:35.830 --> 00:28:41.049
+We'll see it, one by one, after we log in into AWS console (step 1) .
+
+00:28:41.049 --> 00:28:42.049
+Okay.
+
+00:28:42.049 --> 00:28:45.570
+So
+
+00:28:45.570 --> 00:28:47.570
+I will give you a bit of overview as well.
+
+00:28:47.570 --> 00:28:52.950
+For example, first, (step 2) you will create an S3 bucket.
+
+00:28:52.950 --> 00:28:54.369
+(Step 3) You will create a simple website.
+
+00:28:54.369 --> 00:28:58.200
+(Step 4) You will upload the content of your website into the S3 bucket.
+
+00:28:58.200 --> 00:29:03.580
+(Step 5) You will enable the website hosting and then (Step 6) you will provide the permission for everyone
+
+00:29:03.580 --> 00:29:10.580
+else to be able to access your bucket and ta-da, your website will be live.
+
+00:29:10.580 --> 00:29:12.389
+[Anuradha] - cool.
+
+00:29:12.389 --> 00:29:14.119
+So you are going to show us demo, right?
+
+00:29:14.119 --> 00:29:17.969
+Because I'm excited to see the demo on how it's going to work.
+
+00:29:17.969 --> 00:29:19.039
+[Preeti] - Yeah.
+
+00:29:19.039 --> 00:29:21.399
+I'm excited as well.
+
+00:29:21.399 --> 00:29:25.879
+Hope things go fine.
+[Anuradha] - Let's go!!
+
+00:29:25.879 --> 00:29:32.300
+[Preeti] - Well, I'm already logged in into AWS, but I would like to show you 
+
+00:29:32.300 --> 00:29:35.859
+how you can do that as well.
+
+00:29:35.859 --> 00:29:39.950
+This is the link, 
+aws.amazon.com/console
+
+00:29:39.950 --> 00:29:46.190
+And here you can log in into your AWS console.
+
+00:29:46.190 --> 00:29:51.349
+In case you don't have a cloud account. AWS account, you can create a new account
+
+00:29:51.349 --> 00:29:54.440
+as well using the button - create an AWS account.
+
+00:29:54.440 --> 00:29:59.320
+Please know that AWS provides free tier for twelve months.
+
+00:29:59.320 --> 00:30:04.989
+So it's the right time for you to enhance your cloud knowledge using these
+
+00:30:04.989 --> 00:30:11.340
+hands-on, because, as we always say, to learn anything, it's always best to get your
+
+00:30:11.340 --> 00:30:12.450
+hands dirty.
+
+00:30:12.450 --> 00:30:13.830
+Isn't it?
+
+00:30:13.830 --> 00:30:21.220
+So if you want to increase your
+knowledge in cloud, the best way to do is create
+
+00:30:21.220 --> 00:30:24.690
+your own AWS account and get started with it.
+
+00:30:24.690 --> 00:30:31.090
+Once you already have an account, you can click 'Log back in' button.
+
+00:30:31.090 --> 00:30:33.950
+And here there are two options to login.
+
+00:30:33.950 --> 00:30:35.080
+Option 1 - root user
+
+00:30:35.080 --> 00:30:37.539
+Option 2 - IAM user.
+
+00:30:37.539 --> 00:30:43.479
+I won't be going into the details of what are those things, but just to give a brief
+
+00:30:43.479 --> 00:30:46.499
+overview, Root user is nothing but a 
+ account that you create.
+
+00:30:46.499 --> 00:30:51.429
+For example, you will be creating your account with your email ID and password.
+
+00:30:51.429 --> 00:30:57.639
+So that email ID user is your root user, but for safety reasons, for security reasons,
+
+00:30:57.639 --> 00:31:02.090
+it's not recommended to use your root user for your day-to-day activity.
+
+00:31:02.090 --> 00:31:10.789
+And that's why one of the first things, after creating your account, is to create an IAM user.
+
+00:31:10.789 --> 00:31:14.259
+So here after you will be using IAM user.
+
+00:31:14.259 --> 00:31:19.820
+So usually once you have created your account, you will be using this way only to do all
+
+00:31:19.820 --> 00:31:25.340
+your daily task.
+
+00:31:25.340 --> 00:31:30.600
+Once you click on IAM user, you are required to put your account ID here.
+
+00:31:30.600 --> 00:31:35.159
+You can either put account ID or you can put account alias.
+
+00:31:35.159 --> 00:31:38.080
+Usually account ID are 12 digit number and are hard to remember.
+
+00:31:38.080 --> 00:31:41.080
+So I prefer using alias, and
+
+00:31:41.080 --> 00:31:48.639
+You can put any easy name that you can remember.
+
+00:31:48.639 --> 00:31:51.320
+Well, I'm already logged into AWS here.
+
+00:31:51.320 --> 00:31:58.239
+So let's see how we can deploy a very simple website. In the search bar,
+
+00:31:58.239 --> 00:32:00.299
+You can search for any service that you want.
+
+00:32:00.299 --> 00:32:05.919
+For example, if you need EC2, search for EC2 and you will get the EC2 and you
+
+00:32:05.919 --> 00:32:10.090
+can create a virtual server in the cloud. 
+But we are going to deploy in S3.
+
+00:32:10.090 --> 00:32:11.580
+So we will search S3.
+
+00:32:11.580 --> 00:32:15.769
+And as soon as we search S3, 
+it appears here (in serach results).
+
+00:32:15.769 --> 00:32:18.389
+Just click on (choose) option S3.
+
+00:32:18.389 --> 00:32:33.009
+Now we are in S3. I would like to tell
+you just a bit about it. In S3,
+
+00:32:33.009 --> 00:32:36.460
+You can store any kind of file that you want.
+
+00:32:36.460 --> 00:32:41.559
+We call it 'object' in terms of S3. You can store any kind of object
+
+00:32:41.559 --> 00:32:42.559
+that you want.
+
+00:32:42.559 --> 00:32:44.879
+It can be video, it can be audio, 
+it can be PDF.
+
+00:32:44.879 --> 00:32:52.749
+It can be docs file, or simply binary file. Anything and everything that you can think
+
+00:32:52.749 --> 00:32:53.749
+of.
+
+00:32:53.749 --> 00:32:58.289
+It has flat file structure, so whatever the requirement is, you can do it,
+
+00:32:58.289 --> 00:33:03.469
+but before you can store it, you have to create a container into it.
+
+00:33:03.469 --> 00:33:06.479
+And that's what we call (S3) 'bucket'.
+
+00:33:06.479 --> 00:33:18.219
+You create a bucket and then you store everything in your bucket.
+
+00:33:18.219 --> 00:33:22.269
+Let's try with test as name of bucket here.
+
+00:33:22.269 --> 00:33:28.080
+You can select which region you want your bucket to stay in.
+
+00:33:28.080 --> 00:33:31.580
+It's a good idea to choose a region, which
+is near to you.
+
+00:33:31.580 --> 00:33:33.830
+For example, I am staying in India.
+
+00:33:33.830 --> 00:33:40.989
+So for me, it's good to select Mumbai region, but if you are some where it's always good to choose
+
+00:33:40.989 --> 00:33:43.159
+a region that's closest to you.
+
+00:33:43.159 --> 00:33:47.839
+So that performance is good and latency is less, all those reasons.
+
+00:33:47.839 --> 00:33:49.070
+Okay.
+
+00:33:49.070 --> 00:33:54.320
+Once we have selected the region, keep all other settings as default because it's not
+
+00:33:54.320 --> 00:33:56.080
+required as of now.
+
+00:33:56.080 --> 00:33:58.077
+And then just go on button 'Create bucket'. And what you see here?
+
+00:33:58.077 --> 00:34:05.679
+Error - bucket with the same name already exist.
+
+00:34:05.679 --> 00:34:08.549
+You might be asking me reason -  Why?
+
+00:34:08.549 --> 00:34:09.549
+AWS
+
+00:34:09.549 --> 00:34:10.549
+is such a big cloud.
+
+00:34:10.549 --> 00:34:14.250
+Why is simple name is saying it
+does not exist.
+
+00:34:14.250 --> 00:34:16.779
+It might be, there are different
+clients.
+
+00:34:16.779 --> 00:34:19.690
+If other clients are using (bucket named) test, why can't I use it, too?
+
+00:34:19.690 --> 00:34:26.340
+Everyone has their own bucket. But my friend, let me tell you that S3 bucket is designed
+
+00:34:26.340 --> 00:34:33.367
+in a way that all the buckets have to be unique and not across only my account,
+
+00:34:33.367 --> 00:34:37.200
+but across all the AWS accounts in the world.
+
+00:34:37.200 --> 00:34:38.419
+Okay.
+
+00:34:38.419 --> 00:34:44.490
+Because they use AWS bucket name as a domain name as well,
+
+00:34:44.490 --> 00:34:45.790
+if you are using
+
+00:34:45.790 --> 00:34:48.609
+website hosting or everything.
+
+00:34:48.609 --> 00:34:54.089
+And for many other reasons that we will not go into details. But it's required that your
+
+00:34:54.089 --> 00:35:01.510
+bucket name must be unique and a good way to maintain a unique bucket that I have found
+
+00:35:01.510 --> 00:35:04.460
+is always prefix your business name.
+
+00:35:04.460 --> 00:35:09.579
+You know, for example, I just prefix CloudKatha to any of my bucket name,
+
+00:35:09.579 --> 00:35:18.829
+And then chances of getting my bucket collided by any other gets to very, very low.
+
+00:35:18.829 --> 00:35:20.570
+So let's give a bucket name
+
+00:35:20.570 --> 00:35:32.249
+that's not matching with anyone: demo-talk-with-anu
+
+00:35:32.249 --> 00:35:36.930
+I think it should not be already available.
+
+00:35:36.930 --> 00:35:38.040
+So, let's click create bucket button again.
+
+00:35:38.040 --> 00:35:51.299
+And, as we were guessing, the bucket has been created.
+
+00:35:51.299 --> 00:35:55.319
+So we are done with first two steps, right. Now,
+
+00:35:55.319 --> 00:35:58.700
+What we have to do is create a simple website and upload
+
+00:35:58.700 --> 00:35:59.700
+it
+
+00:35:59.700 --> 00:36:00.700
+to S3.
+
+00:36:00.700 --> 00:36:06.890
+Let's go ahead and do that.
+For creating a simple website,
+
+00:36:06.890 --> 00:36:09.740
+I have a very, very simple HTML that you
+
+00:36:09.740 --> 00:36:10.740
+can see
+
+00:36:10.740 --> 00:36:13.690
+here already there, and I'll be using it for today's demo.
+
+00:36:13.690 --> 00:36:14.690
+As you
+
+00:36:14.690 --> 00:36:15.690
+can see, it's
+
+00:36:15.690 --> 00:36:16.690
+that simple, it's
+
+00:36:16.690 --> 00:36:17.690
+a very simple demo with just
+
+00:36:17.690 --> 00:36:22.019
+one heading (Learn Cloud with Preeti) and one liner body and a footer (copyright Preeti).
+
+00:36:22.019 --> 00:36:29.430
+So I'll be going ahead
+
+00:36:29.430 --> 00:36:49.710
+and uploading the content in AWS. Let's click on 'upload' button - Add Files - seelct the file
+
+00:36:49.710 --> 00:36:56.990
+Once the file is uploaded, Click on upload
+
+00:36:56.990 --> 00:37:04.520
+and upload is succeeded.
+
+00:37:04.520 --> 00:37:10.740
+So now we are two more steps ahead. Now,
+
+00:37:10.740 --> 00:37:17.734
+step five is enable static website hosting. What is a static website hosting? 
+
+00:37:17.734 --> 00:37:25.319
+In S3, as I already said, you can do a lot of thing. You can just decide to store all your objects
+
+00:37:25.319 --> 00:37:33.070
+over there, or you can decide to deploy your static websites using S3. And to do that,
+
+00:37:33.070 --> 00:37:37.640
+it's not by default enabled. You have
+to enable it. By default,
+
+00:37:37.640 --> 00:37:43.000
+It is used as a simple storage container. But if you need to use it as a website hosting,
+
+00:37:43.000 --> 00:37:49.130
+you need to enable the website hosting. Don't worry. 
+
+00:37:49.130 --> 00:37:53.810
+It's very, very simple. We'll
+be seeing that, how we can enable website
+
+00:37:53.810 --> 00:38:01.559
+hosting. Let's go to the properties tab, here, beside the objects.
+
+00:38:01.559 --> 00:38:11.329
+we have the properties tab. We will go into the properties tab. Keep scrolling till
+
+00:38:11.329 --> 00:38:14.670
+you find static website hosting section.
+
+00:38:14.670 --> 00:38:26.079
+It's at the bottom of the page. As you can notice, current status static website
+
+00:38:26.079 --> 00:38:34.019
+hosting is disabled. This is the bucket
+we have just created. And as I told, by default,
+
+00:38:34.019 --> 00:38:41.440
+it's always disabled. Let's go ahead and enable it.
+
+00:38:41.440 --> 00:38:48.740
+Let's click on 'enable'. Hosting type is we want to host a static website
+
+00:38:48.740 --> 00:38:59.910
+In index document - we have just uploaded our website as you know, index.HTML. As of now,
+
+00:38:59.910 --> 00:39:08.440
+that's the file that we have. For error document also, I'm using this same index.html only, but it always
+
+00:39:08.440 --> 00:39:14.369
+makes sense to have your own error.html file. Isn't it? For specific error type, whatever you
+
+00:39:14.369 --> 00:39:25.310
+have to have your own error html file, but for this demo, I'm just using this index file.
+
+00:39:31.300 --> 00:39:37.960
+So we have enabled static website hosting. So our
+
+00:39:37.960 --> 00:39:44.150
+website is already deployed over here. And as you can see, a URL has been generated
+
+00:39:44.150 --> 00:39:52.460
+http://demo-talk-with-anu.s3-website.  blah, blah, blah. So this is
+
+00:39:52.460 --> 00:40:00.267
+the website that has already been deployed, but hey, why this 403 error? 
+
+00:40:00.267 --> 00:40:09.299
+In AWS. due to security reasons, any buckets that you create, they are private.
+
+00:40:09.299 --> 00:40:15.060
+Nobody else can access those objects and with obvious reasons. You don't want your
+
+00:40:15.060 --> 00:40:19.480
+objects accidentally to be in hand
+of someone, right. Just because you did not
+
+00:40:19.480 --> 00:40:25.900
+configure it to be private, you never want
+your objects to go in wrong hands. Isn't it.
+
+00:40:25.900 --> 00:40:30.990
+So it's a good decision by AWS, I'm sure, to make the buckets private by default.
+
+00:40:30.990 --> 00:40:37.267
+And if at all you require to make your objects public, you have to do it. 
+
+00:40:37.267 --> 00:40:47.060
+Now, to give permission, there are two steps. One step is
+
+00:40:47.060 --> 00:41:01.039
+I would just be showing you. You can
+also see current access status (in console)
+
+00:41:01.039 --> 00:41:06.880
+Bucket and objects are not public. Because this is a default 
+bucket that we have just created
+
+00:41:06.880 --> 00:41:17.200
+with default setting. If you go to permissions tab, where we are currently, you will see option - 'block
+
+00:41:17.200 --> 00:41:21.869
+public access' is enabled. This was done by default.
+
+00:41:21.869 --> 00:41:29.980
+As these words can tell you, that
+public access is blocked for the bucket. So
+
+00:41:29.980 --> 00:41:35.289
+let's go ahead and disable it, because we want
+ our bucket to be publicly accessible.
+
+00:41:35.289 --> 00:41:40.829
+the website we have just created should be 
+publicly accessible to our customers, to
+
+00:41:40.829 --> 00:41:50.859
+our users, to everyone else 
+you want to share your portfolio with or anything else.
+
+00:41:50.859 --> 00:41:56.089
+To just show you a little bit more, as you can
+see in 'block all public access' option, there
+
+00:41:56.089 --> 00:42:02.900
+are four options shown and all those are ticked.
+These are the different types of options
+
+00:42:02.900 --> 00:42:09.490
+that are used to make a bucket public.
+So it's like block if any user tried to make
+
+00:42:09.490 --> 00:42:17.759
+a bucket public by using this, or by using
+this, or by using this. Don't let it do. Just
+
+00:42:17.759 --> 00:42:26.059
+disbale it. But now we, as a user, want to make
+our pocket public and this guy will not let
+
+00:42:26.059 --> 00:42:28.290
+us do that first.
+
+00:42:28.290 --> 00:42:38.167
+So let's sort this issue. Edit it and disable it.
+
+00:42:38.167 --> 00:42:48.539
+So now, if we are going to enable public access,
+this guy will be happy.
+
+00:42:48.539 --> 00:42:54.819
+Save changes (write 'confirm' text in the 
+input box to confirm saving)
+
+00:42:58.800 --> 00:43:05.250
+Well, one step already done. This guy (Permissions Overview) is happy
+and now access the status is - objects can be
+
+00:43:05.250 --> 00:43:12.460
+public. That means it's not yet public. It
+can be public, but it's not yet public. To
+
+00:43:12.460 --> 00:43:19.599
+make it public, what we need to do? As I already told you that, 
+to make a bucket public, these
+
+00:43:19.599 --> 00:43:25.630
+are the four different ways. We'll be using
+one of these way to make our pocket public.
+
+00:43:25.630 --> 00:43:31.690
+So let's go ahead with bucket policies. Because
+bucket policies are one of the most frequently
+
+00:43:31.690 --> 00:43:38.760
+used and convenient way to make a bucket public,
+or simply to grant permission to other people
+
+00:43:38.760 --> 00:43:43.589
+to use your bucket. You might limit your permission
+or if required, you can make it completely
+
+00:43:43.589 --> 00:43:48.069
+public. You might decide to give access to
+only one file.
+
+00:43:48.069 --> 00:43:54.670
+You can do that as well. But for our requirement,
+we want our site to be used as website. And
+
+00:43:54.670 --> 00:43:59.650
+for that, we need to make it public. So let's
+go ahead and use a bucket policy.
+
+00:43:59.650 --> 00:44:12.599
+Here, if you scroll, keep scrolling
+down, you will see bucket policy option. Let's click
+
+00:44:12.599 --> 00:44:14.559
+edit and here you can edit the bucket policy.
+
+00:44:14.559 --> 00:44:22.519
+If you want, you can simply edit this to give, you know,
+
+00:44:22.519 --> 00:44:28.289
+access, to public bucket, or I prefer
+a website, which is really
+
+00:44:28.289 --> 00:44:33.000
+good in terms of generating the policy.
+
+00:44:33.000 --> 00:44:43.049
+Simply go to Google and just aws search policy
+generator. It will open this beautiful site.
+
+00:44:43.049 --> 00:44:49.079
+You have to select policy type. We are creating
+an S3 bucket policy. So policy type is going
+
+00:44:49.079 --> 00:45:02.160
+to be S3 bucket policy. Then we need to add
+statement. In 'Effect' option, we have two choices - allow or deny.
+
+00:45:02.160 --> 00:45:04.390
+Obviously we want to make our buckets public.
+
+00:45:04.390 --> 00:45:12.080
+That means we want to add 'Allow' permission.
+'Principle' means to whom do you want
+
+00:45:12.080 --> 00:45:20.200
+to give this access? Since this is a website,
+this needs to be public and to make it public,
+
+00:45:20.200 --> 00:45:27.170
+you have to give star (*). Star means all - to
+everyone. We want this to give this access
+
+00:45:27.170 --> 00:45:32.734
+to everyone. Let's go ahead and select Actions.
+
+00:45:32.834 --> 00:45:47.099
+Action will be 'Get Objects'. I mean, anyone
+should be able to get objects.
+
+00:45:47.099 --> 00:45:52.329
+This is get objects or, if required,
+you can select all actions - all actions
+
+00:45:52.329 --> 00:45:59.789
+means giving all the possible actions that someone
+can do in S3. But as we all would say in AWS,
+
+00:45:59.789 --> 00:46:06.680
+not in AWS only, in everywhere that we should
+always follow the principle of least privilege.
+
+00:46:06.680 --> 00:46:10.349
+Only give permission to a person
+as less as required.
+
+00:46:10.349 --> 00:46:17.271
+If only a person is needed to
+use Get Object, you don't need to give Get object ACL
+
+00:46:17.271 --> 00:46:25.180
+at all. It doesn't make sense.
+
+00:46:25.180 --> 00:46:33.789
+Then is ARN - Amazon resource Name, and this is here.
+We need to provide the ARN of the bucket
+
+00:46:33.789 --> 00:46:41.520
+let's go ahead and click on this sqaure box
+to copy the bucket ARN. Let me remind
+
+00:46:41.520 --> 00:46:45.369
+you that we are in the same section - in the
+bucket policy section, okay, we are editing
+
+00:46:45.369 --> 00:46:50.519
+the bucket policy. And as soon as you
+click to edit the bucket policy, you will
+
+00:46:50.519 --> 00:46:52.609
+be finding the bucket ARN over there.
+
+00:46:52.609 --> 00:46:59.450
+So just click on the sqaure box to copy the
+bucket ARN. Bucket ARN is copied.
+
+00:46:59.450 --> 00:47:09.759
+Let's go ahead and put it in policy generator website. Click on 'Add Statement' button. 'Now we have added
+
+00:47:09.759 --> 00:47:17.830
+the statement. So let's click on 'Generate
+policy'. Wow, a beautiful policy has been
+
+00:47:17.830 --> 00:47:26.971
+generated. So let's copy this. Let's go ahead
+here (policy section). Let's remove everything from the bucket
+
+00:47:26.971 --> 00:47:32.279
+policy, paste the newly created policy and save changes.
+
+00:47:32.279 --> 00:47:49.329
+And what happened? Error - Action does not apply to
+any resources in statement. No, that's sad.
+
+00:47:49.329 --> 00:48:02.539
+What can we do? Let's try to Google the error.
+
+00:48:02.539 --> 00:48:07.339
+Stack overflow always comes to the rescue.
+Thank you, Stack overflow for being there
+
+00:48:07.339 --> 00:48:08.980
+for us always.
+
+00:48:08.980 --> 00:48:21.940
+Well, I know why this happened. Okay.
+So in S3, you know, there are two types of
+
+00:48:21.940 --> 00:48:28.260
+bucket policy. One is object level
+policy, and one is bucket level policy. For
+
+00:48:28.260 --> 00:48:36.309
+example, first there is S3 bucket and inside
+the bucket, there are Objects. So, as I said, least
+
+00:48:36.309 --> 00:48:43.440
+priviledge, you know, AWS always follows it.
+So either you have access to bucket or you
+
+00:48:43.440 --> 00:48:48.980
+have access to object, or do you have access
+to fewer or do you have access to few more Objects
+
+00:48:48.980 --> 00:48:52.890
+like really, really granular access is defined.
+
+00:48:52.890 --> 00:48:59.619
+So here, as we want to give 'Get object' access,
+get object access means we want to give access
+
+00:48:59.619 --> 00:49:07.309
+to the object. And that means here in (resources of policy), the
+ARN hat we have specified is
+
+00:49:07.309 --> 00:49:14.250
+for bucket level access. If you want to give
+object level access, you have to add '/*'
+
+00:49:14.250 --> 00:49:27.130
+slash star. I hope this should sort out this issue.
+ Let's do save changes.
+
+00:49:27.130 --> 00:49:34.640
+And, bucket policy is successfully edited.
+Now, as you can see beside your bucket name,
+
+00:49:34.640 --> 00:49:42.499
+publicly accessible. So that means we have
+successfully made our bucket public. Let's
+
+00:49:42.499 --> 00:49:45.990
+go and try again (to reload the website we deployed).
+
+00:49:45.990 --> 00:49:49.134
+[Anuradha] - Woooow!!
+[Preeti] - Yayy !!
+
+00:49:49.134 --> 00:49:54.534
+We have done it, can you see it?
+
+00:49:54.534 --> 00:50:01.339
+[Anuradha] - yes, yes, yes. This is so good. It's nice.
+Like it was pretty straightforward. I mean,
+
+00:50:01.339 --> 00:50:07.230
+it doesn't take much of steps if we know what
+to do next that is.
+
+00:50:07.230 --> 00:50:16.079
+Preeti, I wanted to ask one thing when you edited
+the permissions and you added slash object to it,
+
+00:50:16.079 --> 00:50:21.720
+I guess slash stars, it means that all the
+objects in that bucket that we get permission
+
+00:50:21.720 --> 00:50:23.099
+to all of them.
+
+00:50:23.099 --> 00:50:29.150
+So. What if like I have to give it to a particular
+object, maybe there are multiple objects in
+
+00:50:29.150 --> 00:50:34.351
+my bucket. So is there a name which I can
+pick for specific objects?
+
+00:50:34.351 --> 00:50:40.759
+[Preeti] - Absolutely. Thank you for the question, Anu. I would go ahead
+with that. Usually, you know what happens
+
+00:50:40.759 --> 00:50:47.119
+whenever we have a bucket, we know that many,
+a times it happens that we have groups of
+
+00:50:47.119 --> 00:50:49.579
+people or groups of users or something.
+
+00:50:49.579 --> 00:50:54.800
+So we like to group all those things using
+prefix. For example, if I want to upload
+
+00:50:54.800 --> 00:51:00.770
+a bucket. The prefix is nothing but in
+the console, you will see it like folders.
+
+00:51:00.770 --> 00:51:06.450
+In real life, how we store object inside
+folder inside that folder, inside that folder.
+
+00:51:06.450 --> 00:51:13.260
+So we name our things. Uh, as I said in the
+demo index HTML, you can name it like,
+
+00:51:13.260 --> 00:51:21.609
+websites/ index. HTML, and then you can
+name it like,  using other prefixes
+
+00:51:21.609 --> 00:51:26.990
+and based on those prefixes, you can go ahead
+and then you can define the permissions as
+
+00:51:26.990 --> 00:51:27.990
+well.
+
+00:51:27.990 --> 00:51:33.640
+Apart from that, you can use access control
+list as well as this allows you to, ACL, as you. 
+
+00:51:33.640 --> 00:51:38.470
+can see here in the screen, access control
+list really helps you out
+
+00:51:38.470 --> 00:51:39.470
+to
+
+00:51:39.470 --> 00:51:44.300
+go ahead and get the granular permission based
+on each object wise, you can click, let me
+
+00:51:44.300 --> 00:51:52.809
+just go to the bucket - objects -
+
+00:51:52.809 --> 00:52:05.749
+click (select) on the object - Action And here in options
+you can see that are, you know, this is already
+
+00:52:05.749 --> 00:52:13.880
+public, but otherwise you will say make public
+via ACL. Can you see that here? Like, yeah,
+
+00:52:13.880 --> 00:52:14.880
+this is
+
+00:52:14.880 --> 00:52:16.980
+object level. Like each object, for example,
+if
+
+00:52:16.980 --> 00:52:18.680
+you have thousands of objects and you want
+
+00:52:18.680 --> 00:52:19.680
+to
+
+00:52:19.680 --> 00:52:20.680
+give access
+
+00:52:20.680 --> 00:52:21.680
+to
+
+00:52:21.680 --> 00:52:22.680
+only
+
+00:52:22.680 --> 00:52:23.680
+one object, you can
+go
+
+00:52:23.680 --> 00:52:24.680
+ahead
+
+00:52:24.680 --> 00:52:25.680
+and give it via PCL.
+
+00:52:25.680 --> 00:52:29.160
+Like only give permission to this. If you
+don't want to do only for one, you can group
+
+00:52:29.160 --> 00:52:34.109
+it using prefixes and then give it. And if
+you want to give whole, you can use bucket
+
+00:52:34.109 --> 00:52:36.734
+policy to give it as a whole.
+
+00:52:36.734 --> 00:52:46.789
+[Anuradha]: Okay. I'm not sure how big of my question will be, but like, what is the process for ACL? For giving the bucket permission,
+
+00:52:46.789 --> 00:52:53.009
+We saw how to do that. But with ACL, is
+it like just going ahead and selecting, making
+
+00:52:53.009 --> 00:52:59.829
+it public with ACL, or we also have to create
+some permissions for it as well. 
+
+00:52:59.829 --> 00:53:06.319
+[Preeti] - Yeah. So there are different ways to
+deal with ACL in AWS. You can, you know,
+
+00:53:06.319 --> 00:53:11.390
+either you can pass those ACL commands in
+as a CLI command, or you can go ahead and
+
+00:53:11.390 --> 00:53:18.400
+if you want to, do simply make public,
+as I can say, you can select the bucket, simply
+
+00:53:18.400 --> 00:53:22.890
+just click it here and make it to make public
+via ACL. Single
+
+00:53:22.890 --> 00:53:29.480
+click is, you know, more than enough to make
+your object public. And other
+
+00:53:29.480 --> 00:53:37.821
+than that, if you have some explicit requirement, for example, let me just show it in the permission tab.
+
+00:53:37.821 --> 00:53:45.789
+This was block public access bucket.
+Here. As you can see here, there is
+
+00:53:45.789 --> 00:53:54.789
+a section for ACL as well. Okay. As we have
+already enabled the bucket public, but here
+
+00:53:54.789 --> 00:53:59.329
+based on different things you can give,
+you can give that to, you only want the bucket
+
+00:53:59.329 --> 00:54:03.240
+owner to be able to access all the objects.
+
+00:54:03.240 --> 00:54:07.769
+You want everyone to be able to access. This
+is what we did using bucket policy, right?
+
+00:54:07.769 --> 00:54:12.921
+We gave access to everyone - public access.
+So this is also the ACL. You really, we
+
+00:54:12.921 --> 00:54:18.560
+could have gone ACL way and just created the
+bucket to give everyone access, public access.
+
+00:54:18.560 --> 00:54:23.640
+So, this was also one of the way, then we
+can give authenticated user group.
+
+00:54:23.640 --> 00:54:28.619
+This is like something - If you want to give
+a group of access using AWS, some other ways.
+
+00:54:28.619 --> 00:54:33.789
+For example, if you have an on premises server
+and you have active directory and you have
+
+00:54:33.789 --> 00:54:39.859
+set of users over there, you want to
+ authenticate your active directory to
+
+00:54:39.859 --> 00:54:44.599
+your AWS. And for each of your user, you want
+to create a folder so that they can store
+
+00:54:44.599 --> 00:54:46.739
+their own personal filing cloud.
+
+00:54:46.739 --> 00:54:53.690
+You can go ahead with authenticated group as well, or here it's the log delivery group.
+
+00:54:53.690 --> 00:54:59.069
+So you can use all these options in the ACL
+to give access. So there are two options,
+
+00:54:59.069 --> 00:55:05.730
+as I told you, one is in the Permissions tab
+ACL. And second is just by clicking on the
+
+00:55:05.730 --> 00:55:08.440
+object. Just click on the object and
+make it public.
+
+00:55:08.440 --> 00:55:14.650
+If you want to give access about it or to,
+you know, somebody.
+
+00:55:14.650 --> 00:55:22.609
+[Anuradha] - Got it, there are lots of different ways, depending upon the use case. Worth deep diving into, for some later day.
+
+00:55:22.609 --> 00:55:30.940
+It was really nice understanding how
+it works and behind the scenes. And when I
+
+00:55:30.940 --> 00:55:34.650
+see it happen, it looks like I got the confidence
+that I can do it too.
+
+00:55:34.650 --> 00:55:40.140
+I always thought that I will never be able
+to do cloud or something, but this looks nice.
+
+00:55:40.140 --> 00:55:46.920
+I might play with it for some days and see
+that, how I can deploy with it. I wanted
+
+00:55:46.920 --> 00:55:53.819
+to ask on this, uh, that I have seen a lot
+of billing issues. Like I always get to see
+
+00:55:53.819 --> 00:55:59.230
+on Twitter that people say that they got billed
+extra.
+
+00:55:59.230 --> 00:56:06.369
+And also, I am sure that this also would have
+some settings to not get billed if you are
+
+00:56:06.369 --> 00:56:15.650
+not using something and so on. So are there 
+some caveat which you like to talk about maybe.
+
+00:56:15.650 --> 00:56:22.519
+[Preeti] - Um, obviously when you are into the cloud, 
+cloud, has the power to get
+
+00:56:22.519 --> 00:56:29.619
+started with one server as well as it has
+power to go crazy using millions of Servers,
+
+00:56:29.619 --> 00:56:35.539
+thousands of servers or whatever is your requirement.
+And depending on that, you will be billed,
+
+00:56:35.539 --> 00:56:39.510
+obviously the huge, hefty amount of sum.
+
+00:56:39.510 --> 00:56:46.059
+So what I do usually, and I also recommend
+all my readers in my blog, I have a, you know,
+
+00:56:46.059 --> 00:56:52.700
+I created a blog post on this as well, so
+that I always recommend my user that as
+
+00:56:52.700 --> 00:56:59.140
+soon as you create your AWS account, you should
+create billing alerts so that even if you
+
+00:56:59.140 --> 00:57:04.099
+are sleeping and in your account, your budget,
+you go beyond the budget,
+
+00:57:04.099 --> 00:57:10.460
+You get an email as soon as possible. And
+as soon as the, you know, that threshold is
+
+00:57:10.460 --> 00:57:15.151
+breached, you'll get an email, you see it
+and you come back to your account and then
+
+00:57:15.151 --> 00:57:23.039
+you go to billing dashboard
+
+00:57:23.039 --> 00:57:27.529
+and there in the billing dashboard, you
+can see that what you have spent. For example,
+
+00:57:27.529 --> 00:57:35.930
+you can see my billing dashboard it's dollar 0. 
+I'm so happy about it. Yeah. So in the
+
+00:57:35.930 --> 00:57:40.339
+billing dashboard, you can go and if you have
+spent something, you will get service wise
+
+00:57:40.339 --> 00:57:42.920
+that what is something that is charging you.
+
+00:57:42.920 --> 00:57:47.539
+So you can see that by looking at this, you
+will be able to understand what I need to
+
+00:57:47.539 --> 00:57:54.550
+do next. So you can go ahead and stop that service.
+But before going into all that,
+
+00:57:54.550 --> 00:57:59.789
+you can, in this screen, you can go to budgets
+and create a budget. As you can see in my
+
+00:57:59.789 --> 00:58:05.119
+account here, I have created a monthly budget. 
+
+00:58:05.119 --> 00:58:12.690
+And as you can see, my monthly budget is 10
+cent. I want to be alerted as soon as
+
+00:58:12.690 --> 00:58:19.010
+10 cents are spend in my account. And that's
+great. For example, you know, I write
+
+00:58:19.010 --> 00:58:25.089
+a lot of tutorials on cloudkatha. 
+And by doing that, there are times that when
+
+00:58:25.089 --> 00:58:31.249
+I spin up few servers, maybe quite a few,
+sometimes five 10, just to give some demo
+
+00:58:31.249 --> 00:58:33.539
+and I forget it, I just leave it running.
+
+00:58:33.539 --> 00:58:38.849
+And I go start doing some other work and suddenly
+out of the blue, 
+
+00:58:38.849 --> 00:58:44.279
+I get a message that, your free tier
+has been already over reached.
+
+00:58:44.279 --> 00:58:48.500
+And then this amount is money is going to
+spend on your account. And then I wake up
+
+00:58:48.500 --> 00:58:52.730
+and come back to my account. And then I go to my billing dashboard.
+
+00:58:52.730 --> 00:58:59.300
+I see that where I have spent, I go back and
+I stop my server. So, my friend, this is going to
+
+00:58:59.300 --> 00:59:06.430
+be your savior. Please, please, please. If
+you are new to AWS, not new, I guess it's
+
+00:59:06.430 --> 00:59:14.039
+for everyone, but specially if you are 
+new to AWS and you have created
+
+00:59:14.039 --> 00:59:20.099
+a free tier account to make lot
+of learnings and to learn new things, always
+
+00:59:20.099 --> 00:59:25.250
+make sure to create a cost budget and you
+can create a monthly budget.
+
+00:59:25.250 --> 00:59:30.510
+It just has to be more than zero, right?
+So select any amount more than zero. That's
+
+00:59:30.510 --> 00:59:37.660
+why I have selected point ten cents, so
+select any amount and then create a budget
+
+00:59:37.660 --> 00:59:43.190
+and you are set. Now you are not going to
+spend millions in this and safely, you can
+
+00:59:43.190 --> 00:59:49.749
+learn as much as you want this.
+[Anuradha] - thank you for this tip because this is going
+
+00:59:49.749 --> 00:59:52.529
+to be a life savior, money savior but yeah.
+
+00:59:52.529 --> 00:59:59.610
+[Preeti] - I'm sure. I think this is the first step
+we should always follow - that
+
+00:59:59.610 --> 01:00:05.570
+as soon as we create an AWS account. The first thing to do is to enable MFA because security
+
+01:00:05.570 --> 01:00:13.000
+is the most important thing to do. And the
+second thing to do is to set up the budegt because
+
+01:00:13.000 --> 01:00:18.634
+money comes second important thing after security. So yeah.
+
+01:00:18.634 --> 01:00:30.160
+[Anuradha] - definitely. Thank you. This was really
+nice. So do you have anything else to share?
+
+01:00:30.160 --> 01:00:35.049
+[Preeti] - I would like to say, you know, this is just
+the beginning and you can, you just got a
+
+01:00:35.049 --> 01:00:42.519
+taste of AWS that what you can do and what
+you cannot do. So, I would just like to
+
+01:00:42.519 --> 01:00:48.800
+show a bit over the services here, as you can
+see here, there are lots of services. At the
+
+01:00:48.800 --> 01:00:54.460
+time, you know, AWS has more than 200 services
+in different differently.
+
+01:00:54.460 --> 01:01:01.400
+If you see analytics, they have a
+lot of services in analytics, athena, cloudSearch, Data Exchange, data pipeline,
+
+01:01:01.400 --> 01:01:09.769
+and many. There's application integration.
+There are many, so you can, you know,
+
+01:01:09.769 --> 01:01:16.630
+navigate to all this and see all the
+available things over here. So go ahead, create
+
+01:01:16.630 --> 01:01:23.210
+a free tier account, explore it. Get your hands
+dirty, deploy your first application.
+
+01:01:23.210 --> 01:01:27.609
+Get your hands on front end application. If
+you are into backend, go ahead, create a backend
+
+01:01:27.609 --> 01:01:33.580
+application, just get your hands dirty and
+you will know it, you know, for sure. As I
+
+01:01:33.580 --> 01:01:40.220
+told in the beginning, That I dived in the
+middle of the sea. Suddenly I came and I
+
+01:01:40.220 --> 01:01:44.849
+had to, you know, deliver my application within
+first sprint.
+
+01:01:44.849 --> 01:01:49.099
+There were a few user story, and that was
+the time that I was suddenly into the console.
+
+01:01:49.099 --> 01:01:54.140
+I knew I had to play with a few things, but my
+friend, that was the best thing that ever
+
+01:01:54.140 --> 01:02:00.640
+happened to me. I started doing demos before
+going to Google and searching what is S3 or
+
+01:02:00.640 --> 01:02:03.960
+what is Lambda. And you might think that was
+difficult.
+
+01:02:03.960 --> 01:02:11.890
+It was difficult, but it was hell a lot of
+learning. Trust me. I learned a lot. So if you
+
+01:02:11.890 --> 01:02:19.329
+do, you also, I would suggest that don't go
+too deep into any topic by learning theory
+
+01:02:19.329 --> 01:02:24.260
+or by going to, udemy courses
+or by going to AWS documentation, anything,
+
+01:02:24.260 --> 01:02:30.789
+read a bit, know a bit about it and then get
+your hands dirty.
+
+01:02:30.789 --> 01:02:35.477
+That's the best way you can learn it.
+
+01:02:35.477 --> 01:02:45.680
+[Anuradha] - Thank you, Pretti. Really, it was very nice learning all these overview of cloud and AWS and that hands-on demo. I'm sure that people
+
+01:02:45.680 --> 01:02:52.970
+who are listening to this, they will also get
+a lots of value out of it. And, I will
+
+01:02:52.970 --> 01:02:59.299
+be posting all the links, which Preeti talked
+about in the video description and also her
+
+01:02:59.299 --> 01:03:00.869
+LinkedIn and Twitter ID.
+
+01:03:00.869 --> 01:03:07.030
+Go give her a follow because she's doing
+really great in Cloud front and, do
+
+01:03:07.030 --> 01:03:13.559
+check out the cloud Katha blog. That is
+really, really amazing. And I'm sure that
+
+01:03:13.559 --> 01:03:21.200
+once I start learning, I'm going to use your
+blog a lot. Thank you so much again for creating
+
+01:03:21.200 --> 01:03:26.059
+and coming here today to share with us all
+your learnings.
+
+01:03:26.059 --> 01:03:32.000
+[Preeti] - Thank you so much, Anu, thank you so much
+for having me here. It was a great pleasure talking
+
+01:03:32.000 --> 01:03:37.330
+to you and getting something ready for our
+readers and you know, for our viewers. So
+
+01:03:37.330 --> 01:03:39.916
+thank you so much.
+
+01:03:39.916 --> 01:03:49.510
+[Anuradha] - Thank you. So in this new year, I really hope that you put new learnings and new content into your blog
+
+01:03:49.510 --> 01:03:55.730
+and more and more people get helped by it and your blog grows a lot.
+
+01:03:55.730 --> 01:04:03.289
+So these are my wishes. Do you have any plans
+for new year? Like any goals for this new tear.
+
+01:04:03.289 --> 01:04:12.930
+[Preeti] - Um, haven't said about goals, you know,
+obviously there are quite a few, however,
+
+01:04:12.930 --> 01:04:18.869
+One of my biggest goal as of now is to,
+you know, in the last year, as we gave a lot
+
+01:04:18.869 --> 01:04:25.880
+and lot of tutorials in AWS cloud and more
+than lakhs of people have benefited from it.
+
+01:04:25.880 --> 01:04:34.009
+So one of our goals is to come on
+our AWS channel, a YouTube channel for our
+
+01:04:34.009 --> 01:04:38.539
+specific to all the cloud learnings. And
+then we'll be giving all those how to videos,
+
+01:04:38.539 --> 01:04:44.920
+how to set up this, how to set up that or
+anything that our viewers would like to understand
+
+01:04:44.920 --> 01:04:52.759
+or know more about it. So that's one of my goal, 
+or to be broad if I say cloud Katha's
+
+01:04:52.759 --> 01:04:53.759
+goal.
+
+01:04:53.759 --> 01:05:01.539
+So apart from that, obviously we would like
+ our viewer to get as much help as possible.
+
+01:05:01.539 --> 01:05:10.119
+And I would like to be as helpful as
+I can. So to give back to the community.
+
+01:05:10.119 --> 01:05:15.040
+Whatever I am it's because of the community. we have
+learned from there. And then we go ahead,
+
+01:05:15.040 --> 01:05:19.249
+we learn a bit, and then we go a step further.
+
+01:05:19.249 --> 01:05:24.099
+So I would like to do my bit as well by 
+sharing all the knowledge that I
+
+01:05:24.099 --> 01:05:26.215
+learned here.
+
+01:05:26.215 --> 01:05:30.357
+[Anuradha] - That is awesome. Yeah. I mean,
+that's the best way of learning, giving back to community
+
+01:05:30.357 --> 01:05:33.420
+and sharing your knowledge. 
+And I'm really excited for your channel
+
+01:05:33.420 --> 01:05:43.136
+do create the channel as soon as possible. And I'm going
+to share that link soon in the description once you create it and
+
+01:05:43.136 --> 01:05:50.136
+all the best for your channel, I'm sure that lots of people will learn more via the channel videos as well. So go do it, I'd say.
+
+01:05:50.136 --> 01:06:02.160
+[Preeti] - Thank you so much, Anu. In fact, in cloud Katha, many of our readers are sending requests to us for videos that
+
+01:06:02.160 --> 01:06:05.670
+do you have video content, please? If you
+can provide us.
+
+01:06:05.670 --> 01:06:11.869
+And I'm like, and I have not yet created,
+but well, when we have got lot more requests,
+
+01:06:11.869 --> 01:06:19.059
+then, uh, it, you know, I give it
+a thought that everyone is requesting it and
+
+01:06:19.059 --> 01:06:22.779
+it's the need of the hour, then, Why not?
+
+01:06:22.779 --> 01:06:29.297
+[Anuradha] - Yes, go ahead. And of course, I mean, that's, that's the best way. Go ahead, create it.
+
+01:06:29.297 --> 01:06:31.300
+I'm really looking forward to it.
+
+01:06:31.300 --> 01:06:37.367
+[Preeti] - Thank you so much, for boosting the morale, it is very much required.
+
+01:06:37.367 --> 01:06:45.025
+[Anuradha] - I'm always, always there for you. Go ahead.
+Just rock it. And, thank you.
+
+01:06:45.025 --> 01:06:52.035
+Thanks once again, for coming, it was really nice
+talking to you. Maybe in future also, if we want to deep dive into something,
+
+01:06:52.035 --> 01:06:57.055
+I would really like to have you someday again on my channel.
+
+01:06:57.055 --> 01:07:01.754
+[Preeti] - Thank you so much, Anu. With
+that I would like to sign off, and I would like to say
+
+01:07:01.754 --> 01:07:09.470
+a very, very happy new year to all our viewers 
+Stay happy, stay healthy and stay safe.
+
+01:07:09.470 --> 01:07:15.680
+[Anuradha] - Thank you so much, Preeti. And, to everyone.
+that's all for now. I will see you later in
+
+01:07:15.680 --> 01:07:22.439
+next video and happy new year. I hope you
+are all safe, and healthy. Take care. Bye.
+
