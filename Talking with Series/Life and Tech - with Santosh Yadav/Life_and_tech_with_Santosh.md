@@ -5,4 +5,3 @@
 - [Santosh's twitter](https://twitter.com/SantoshYadavDev)
 - [Blog about his journey](https://www.freecodecamp.org/news/my-journey-into-tech-from-slums-of-mumbai-to-my-own-apartment/)
 - [His YouTube channel](https://www.youtube.com/c/TechTalksWithSantosh)
-
