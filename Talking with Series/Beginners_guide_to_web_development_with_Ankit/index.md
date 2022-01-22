@@ -1,4 +1,4 @@
-# [Beginners guide to web development - with Ankit Sharma](https://youtu.be/LoBZ-N6e8Ec)
+# [Beginners guide to web development - with Ankit Sharma](https://youtu.be/iKiTGRz_8CM)
 Date: 30 January, 2022
 Time of livestream: 7:00 pm IST | 2:30 pm CET
 
