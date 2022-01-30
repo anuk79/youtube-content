@@ -37,7 +37,7 @@ Time of livestream: 7:00 pm IST | 2:30 pm CET
 ### Version Control
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
-### Hosting and deployment
+### Build and deployment
 - [GitHub](https://github.com/)
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
