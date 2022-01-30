@@ -41,6 +41,7 @@ Time of livestream: 7:00 pm IST | 2:30 pm CET
 - [GitHub](https://github.com/)
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
+- [Cloudfare pages](https://pages.cloudflare.com/)
 
 ## Communities
 - [Google Developer Groups](https://developers.google.com/community/gdg)
