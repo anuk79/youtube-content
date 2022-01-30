@@ -13,7 +13,7 @@ Time of livestream: 7:00 pm IST | 2:30 pm CET
 - [Dev Challenges](https://devchallenges.io/)
 - [MDN - front end developer learning pathway](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 - [Frontend Masters - Getting a frontend developer job](https://frontendmasters.com/guides/learning-roadmap/getting-a-front-end-developer-job/)
-- [100 days of code](https://www.100daysofcode.com/)
+
 
 ### HTML
 - [HTML Full Course - Build a Website Tutorial](https://www.youtube.com/watch?v=pQN-pnXPaVg)
@@ -42,6 +42,10 @@ Time of livestream: 7:00 pm IST | 2:30 pm CET
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
 
+## Communities
+- [Google Developer Groups](https://developers.google.com/community/gdg)
+- [100 days of code](https://www.100daysofcode.com/)
+- [Find meetups](https://www.meetup.com/)
 
 ## Connect with Ankit:
 - [Twitter](https://twitter.com/ankitsharma_007)
