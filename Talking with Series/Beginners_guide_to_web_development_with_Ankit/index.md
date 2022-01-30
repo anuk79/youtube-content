@@ -1,12 +1,13 @@
 # [Beginners guide to web development - with Ankit Sharma](https://youtu.be/iKiTGRz_8CM)
-Date: 30 January, 2022
-
-Time of livestream: 1:30 pm GMT | 7:00 pm IST
 
 ## Topics:
 - How to get started with web development?
-- Which advanced topics will help you with career progression (let say if you are 2+ year experienced)
+- Different paths in web development
+- Ideas for making projects and learn in public
+- Hosting code, build and deploying websites
+- What will help you with career progression (let say if you are 2+ year experienced)
 - Tips and suggestions beyond just coding
+- Community contributions
 
 ## Resources
 ### Generic resources
@@ -14,7 +15,7 @@ Time of livestream: 1:30 pm GMT | 7:00 pm IST
 - [Dev Challenges](https://devchallenges.io/)
 - [MDN - front end developer learning pathway](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 - [Frontend Masters - Getting a frontend developer job](https://frontendmasters.com/guides/learning-roadmap/getting-a-front-end-developer-job/)
-
+- Can use Public APIs to build projects like - [The Movie DB](https://www.themoviedb.org/)
 
 ### HTML
 - [HTML Full Course - Build a Website Tutorial](https://www.youtube.com/watch?v=pQN-pnXPaVg)
@@ -44,12 +45,16 @@ Time of livestream: 1:30 pm GMT | 7:00 pm IST
 - [Vercel](https://vercel.com/)
 - [Cloudfare pages](https://pages.cloudflare.com/)
 
+
 ## Communities
 - [Google Developer Groups](https://developers.google.com/community/gdg)
 - [100 days of code](https://www.100daysofcode.com/)
 - [Find meetups](https://www.meetup.com/)
+- [This is Learning](https://twitter.com/Thisis_Learning)
+- Find communities on [Discord](https://discord.com/)
 
 ## Connect with Ankit:
 - [Twitter](https://twitter.com/ankitsharma_007)
 - [Linkedin](https://www.linkedin.com/in/ankitsharma_007)
 - [Blog](https://ankitsharmablogs.com/)
+- [GitHub](https://github.com/AnkitSharma-007)
