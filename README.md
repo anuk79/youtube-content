@@ -1,8 +1,8 @@
 # [Youtube channel Content](https://www.youtube.com/channel/UCzv8q9-tSIQuTDzgB1BgXMQ)
 Contains information, captions and resources of my YouTube channel videos
 
-## [A For Accessibility](https://github.com/anuk79/youtube-content/blob/main/AForAccessibility/index.md)
-This series is completely focused on web accessibility.
+## [A For Accessibility](https://www.youtube.com/watch?v=q1nQ0VA4vYw&list=PLS4ZXsZEb51apvOoBE_HukoWpcDXnGJ7y)
+- What is accessibility? - Coming soon
 
 ## [Talking with series](https://www.youtube.com/playlist?list=PLS4ZXsZEb51Ze78JH1jLxUiDLBXODuJfe)
 In this series, we get to interview and discuss with our guests and learn something new:
